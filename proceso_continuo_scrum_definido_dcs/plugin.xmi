@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_lmQ0gbzaEeWv5sdfLUYjQg" guid="_lmQ0gbzaEeWv5sdfLUYjQg"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_lmQ0cLzaEeWv5sdfLUYjQg" name="proceso_continuo_scrum_definido_dcs" guid="_lmQ0cLzaEeWv5sdfLUYjQg" presentationName="Proceso Continuo Scrum Definido (DCS)" briefDescription="Proceso de Ingeniería de software, basado en Scrum. Pretende controlar de mejor forma las especificaciones, logrando un grado de formalidad mayor, lo que corrige problemas de informalidad y permite un desarrollo continuo de tareas, en vez de ser enmarcadas dentro de Sprints" authors="Abraham Cerda Iturra&#xD;&#xA;Joaquín Villagra Pacheco" changeDate="2016-01-17T03:25:21.080-0200" version="1.0">
+    <methodElementProperty xmi:id="_lmQ0g7zaEeWv5sdfLUYjQg" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_s96XcLzaEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lmQ0cbzaEeWv5sdfLUYjQg" name="Content" guid="_lmQ0cbzaEeWv5sdfLUYjQg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lmQ0crzaEeWv5sdfLUYjQg" name="Categories" guid="_lmQ0crzaEeWv5sdfLUYjQg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lmQ0c7zaEeWv5sdfLUYjQg" name="Domains" guid="_lmQ0c7zaEeWv5sdfLUYjQg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lmQ0dLzaEeWv5sdfLUYjQg" name="Disciplines" guid="_lmQ0dLzaEeWv5sdfLUYjQg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lmQ0dbzaEeWv5sdfLUYjQg" name="RoleSets" guid="_lmQ0dbzaEeWv5sdfLUYjQg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lmQ0drzaEeWv5sdfLUYjQg" name="WP Types" guid="_lmQ0drzaEeWv5sdfLUYjQg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lmQ0d7zaEeWv5sdfLUYjQg" name="Tools" guid="_lmQ0d7zaEeWv5sdfLUYjQg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lmQ0eLzaEeWv5sdfLUYjQg" name="StandardCategories" guid="_lmQ0eLzaEeWv5sdfLUYjQg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lmQ0ebzaEeWv5sdfLUYjQg" name="CustomCategories" guid="_lmQ0ebzaEeWv5sdfLUYjQg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lmQ0erzaEeWv5sdfLUYjQg" name="Hidden" guid="_lmQ0erzaEeWv5sdfLUYjQg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_lmQ0e7zaEeWv5sdfLUYjQg" name="Custom Categories" guid="_lmQ0e7zaEeWv5sdfLUYjQg"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lmQ0fLzaEeWv5sdfLUYjQg" name="CoreContent" guid="_lmQ0fLzaEeWv5sdfLUYjQg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_O-aoYLzbEeWv5sdfLUYjQg" name="contenido_del_proceso" guid="_O-aoYLzbEeWv5sdfLUYjQg" presentationName="Contenido del Proceso">
+          <methodElementProperty xmi:id="_O-uKYLzbEeWv5sdfLUYjQg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_SOtUcLzbEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_TD0-kLzbEeWv5sdfLUYjQg" name="new_role" guid="_TD0-kLzbEeWv5sdfLUYjQg" presentationName="New Role"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rLds8LzbEeWv5sdfLUYjQg" name="minuta_de_reuniones_interna" guid="_rLds8LzbEeWv5sdfLUYjQg" presentationName="Minuta de Reuniones Interna" briefDescription="Documento de texto en el cual se deberá documentar los distintos puntos tratados en las reuniones internas del equipo de trabajo. Debe indicar claramente acuerdos, compromisos y sus respectivos estados.">
+            <methodElementProperty xmi:id="_3pFEMLzbEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_4gks4LzbEeWv5sdfLUYjQg" name="minuta_de_reuniones_externa" guid="_4gks4LzbEeWv5sdfLUYjQg" presentationName="Minuta de Reuniones Externa" briefDescription="Documento de texto en el cual se deberá documentar los distintos puntos tratados en las reuniones externas, osea reuniones con el cliente. Debe indicar claramente acuerdos, compromisos y sus respectivos estados.">
+            <methodElementProperty xmi:id="_AJxS4LzcEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_o5UOsLzcEeWv5sdfLUYjQg" name="documento_de_ingeniera_de_requisistos" guid="_o5UOsLzcEeWv5sdfLUYjQg" presentationName="Documento de Ingeniería de Requisistos" briefDescription="En este documento deben especificarse cada uno de los requisitos dejando en claro el grado de definición que este posee.&#xD;&#xA;Ejemplo: Requisito01 [Validado] &#xD;&#xA;Ejemplo: Requisito20 [Negociado][Validado]&#xD;&#xA;Aquellos requisitos que no esten validados pueden incluirse pero, no podrán pasar a desarrollo hasta estar en su estado de validado. &#xD;&#xA;">
+            <methodElementProperty xmi:id="_H4k8MLzdEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IzfsULzdEeWv5sdfLUYjQg" name="documento_de_definicin_arquitectural" guid="_IzfsULzdEeWv5sdfLUYjQg" presentationName="Documento de Definición Arquitectural" briefDescription="En este documento se debe especificar la arquitectura de software a utilizar en el desarrollo, indicando el porque se opta por dicha arquitectura, sus ventajas comparativas y absolutas dentro del contexto del problema a resolver. Este documento tiene como finalidad componer una base historica, en la cual se asocie una arquitectura a un tipo de problema y su respectiva tasa de éxito. ">
+            <methodElementProperty xmi:id="_swzywLzeEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_wI_2kLzeEeWv5sdfLUYjQg" name="documento_de_especificacin_de_cambios" guid="_wI_2kLzeEeWv5sdfLUYjQg" presentationName="Documento de Especificación de Cambios" briefDescription="En este documento se debe dejar especificado los cambios a realizar sobre los requisitos y que fueron requeridos por el cliente. ">
+            <methodElementProperty xmi:id="_O1CtILzfEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_aczacLzfEeWv5sdfLUYjQg" name="tablero_kanban" guid="_aczacLzfEeWv5sdfLUYjQg" presentationName="Tablero Kanban" briefDescription="Tablero que controla de modo armónico la fabricación de los productos necesarios en la cantidad y tiempo necesarios en cada uno de los procesos.&#xD;&#xA;Tablero Kanban de 4 columnas: To do, Ready, Doing y Done. &#xD;&#xA;To do, correponde a todas los requisitos especificados en el documento de requisitos. Incluye aquellos no validados.&#xD;&#xA;Ready, en esta columna se dejan evidenciados aquellos requisitos validados que estan listos para pasar a desarrollo.&#xD;&#xA;Doing, se detallan aquellos requisitos que estan siendo desarrollados.&#xD;&#xA;Done, se deja en evidencia aquellos requisitos ya terminados y testeados. ">
+            <methodElementProperty xmi:id="_226qoLzfEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_I2mt4LzhEeWv5sdfLUYjQg" name="burndown" guid="_I2mt4LzhEeWv5sdfLUYjQg" presentationName="BurnDown" briefDescription="Gráfica del avance del proyecto. &#xD;&#xA;Entrega una visualización del quemado de las tareas y de aquellas que estan pendientes respecto a una función de avance ideal.">
+            <methodElementProperty xmi:id="_R2_JQLzhEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TDA3gLzhEeWv5sdfLUYjQg" name="presentacin_de_avance" guid="_TDA3gLzhEeWv5sdfLUYjQg" presentationName="Presentación de Avance" briefDescription="Template de presentación utilizado para evidenciar el avance de las funcionalidades requeridas al cliente. ">
+            <methodElementProperty xmi:id="_biXCYLzhEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lmQ0fbzaEeWv5sdfLUYjQg" name="CapabilityPatterns" guid="_lmQ0fbzaEeWv5sdfLUYjQg"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lmQ0frzaEeWv5sdfLUYjQg" name="DeliveryProcesses" guid="_lmQ0frzaEeWv5sdfLUYjQg"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lmQ0f7zaEeWv5sdfLUYjQg" name="ProcessContributions" guid="_lmQ0f7zaEeWv5sdfLUYjQg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

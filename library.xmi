@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_hewzkLzaEeWv5sdfLUYjQg" guid="_hewzkLzaEeWv5sdfLUYjQg">
+    <subManagers xmi:id="_lmQ0gbzaEeWv5sdfLUYjQg" href="uma://_lmQ0cLzaEeWv5sdfLUYjQg#_lmQ0gbzaEeWv5sdfLUYjQg"/>
+    <resourceDescriptors xmi:id="_hewzkbzaEeWv5sdfLUYjQg" id="_henpobzaEeWv5sdfLUYjQg" uri=""/>
+    <resourceDescriptors xmi:id="_lmQ0grzaEeWv5sdfLUYjQg" id="_lmQ0cLzaEeWv5sdfLUYjQg" uri="proceso_continuo_scrum_definido_dcs/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_henpobzaEeWv5sdfLUYjQg" name="DefinedContinuosScrum" guid="_henpobzaEeWv5sdfLUYjQg">
+    <methodElementProperty xmi:id="_hg2eQLzaEeWv5sdfLUYjQg" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_lmQ0cLzaEeWv5sdfLUYjQg" href="uma://_lmQ0cLzaEeWv5sdfLUYjQg#_lmQ0cLzaEeWv5sdfLUYjQg"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>
