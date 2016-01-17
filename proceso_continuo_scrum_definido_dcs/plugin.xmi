@@ -67,6 +67,15 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_d-0G0L0aEeWv5sdfLUYjQg" name="chequear_compromisos_y_acuerdos" guid="_d-0G0L0aEeWv5sdfLUYjQg" presentationName="Chequear Compromisos y Acuerdos" performedBy="_qJKBwLzjEeWv5sdfLUYjQg _TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_rLds8LzbEeWv5sdfLUYjQg _4gks4LzbEeWv5sdfLUYjQg" output="_rLds8LzbEeWv5sdfLUYjQg" optionalInput="_o5UOsLzcEeWv5sdfLUYjQg _I2mt4LzhEeWv5sdfLUYjQg _aczacLzfEeWv5sdfLUYjQg _wI_2kLzeEeWv5sdfLUYjQg _IzfsULzdEeWv5sdfLUYjQg _TDA3gLzhEeWv5sdfLUYjQg">
             <methodElementProperty xmi:id="_plYhUL0aEeWv5sdfLUYjQg" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CwFSYL0fEeWv5sdfLUYjQg" name="completar_documento_de_requisitos" guid="_CwFSYL0fEeWv5sdfLUYjQg" presentationName="Completar Documento de Requisitos" performedBy="_qJKBwLzjEeWv5sdfLUYjQg _TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_o5UOsLzcEeWv5sdfLUYjQg _4gks4LzbEeWv5sdfLUYjQg _rLds8LzbEeWv5sdfLUYjQg" output="_o5UOsLzcEeWv5sdfLUYjQg" additionallyPerformedBy="_z-8bILzjEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="___of0L0lEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_JrnmgL0yEeWv5sdfLUYjQg" name="generar_burndown" guid="_JrnmgL0yEeWv5sdfLUYjQg" presentationName="Generar BurnDown" performedBy="_TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_I2mt4LzhEeWv5sdfLUYjQg _aczacLzfEeWv5sdfLUYjQg" output="_I2mt4LzhEeWv5sdfLUYjQg" additionallyPerformedBy="_qJKBwLzjEeWv5sdfLUYjQg" optionalInput="_rLds8LzbEeWv5sdfLUYjQg _o5UOsLzcEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_QQPKEL0yEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_UskLcL0yEeWv5sdfLUYjQg" name="completar_documento_de_definicin_de_cambios" guid="_UskLcL0yEeWv5sdfLUYjQg" presentationName="Completar documento de definición de Cambios" briefDescription="En caso de existir modificación de requisitos, debe llenarse este documento, indicando claramente el requisito afectado, los aspectos conflictivos a evaluar. " performedBy="_TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_4gks4LzbEeWv5sdfLUYjQg _wI_2kLzeEeWv5sdfLUYjQg" output="_wI_2kLzeEeWv5sdfLUYjQg" additionallyPerformedBy="_qJKBwLzjEeWv5sdfLUYjQg" optionalInput="_TDA3gLzhEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_m3QaQL0yEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lmQ0fbzaEeWv5sdfLUYjQg" name="CapabilityPatterns" guid="_lmQ0fbzaEeWv5sdfLUYjQg"/>
