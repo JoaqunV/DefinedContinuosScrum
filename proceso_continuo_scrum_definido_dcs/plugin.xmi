@@ -22,7 +22,9 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_O-aoYLzbEeWv5sdfLUYjQg" name="contenido_del_proceso" guid="_O-aoYLzbEeWv5sdfLUYjQg" presentationName="Contenido del Proceso">
           <methodElementProperty xmi:id="_O-uKYLzbEeWv5sdfLUYjQg" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_SOtUcLzbEeWv5sdfLUYjQg" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_TD0-kLzbEeWv5sdfLUYjQg" name="new_role" guid="_TD0-kLzbEeWv5sdfLUYjQg" presentationName="New Role"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_TD0-kLzbEeWv5sdfLUYjQg" name="Jefe de Proyecto" guid="_TD0-kLzbEeWv5sdfLUYjQg" presentationName="Jefe de Proyecto" responsibleFor="_I2mt4LzhEeWv5sdfLUYjQg _TDA3gLzhEeWv5sdfLUYjQg _o5UOsLzcEeWv5sdfLUYjQg _IzfsULzdEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_phlEYLzjEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rLds8LzbEeWv5sdfLUYjQg" name="minuta_de_reuniones_interna" guid="_rLds8LzbEeWv5sdfLUYjQg" presentationName="Minuta de Reuniones Interna" briefDescription="Documento de texto en el cual se deberá documentar los distintos puntos tratados en las reuniones internas del equipo de trabajo. Debe indicar claramente acuerdos, compromisos y sus respectivos estados.">
             <methodElementProperty xmi:id="_3pFEMLzbEeWv5sdfLUYjQg" name="me_edited" value="true"/>
           </contentElements>
@@ -47,6 +49,13 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TDA3gLzhEeWv5sdfLUYjQg" name="presentacin_de_avance" guid="_TDA3gLzhEeWv5sdfLUYjQg" presentationName="Presentación de Avance" briefDescription="Template de presentación utilizado para evidenciar el avance de las funcionalidades requeridas al cliente. ">
             <methodElementProperty xmi:id="_biXCYLzhEeWv5sdfLUYjQg" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_qJKBwLzjEeWv5sdfLUYjQg" name="Analista" guid="_qJKBwLzjEeWv5sdfLUYjQg" presentationName="Analista" responsibleFor="_4gks4LzbEeWv5sdfLUYjQg _rLds8LzbEeWv5sdfLUYjQg _o5UOsLzcEeWv5sdfLUYjQg _wI_2kLzeEeWv5sdfLUYjQg _IzfsULzdEeWv5sdfLUYjQg _I2mt4LzhEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_ycvokLzjEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_z-8bILzjEeWv5sdfLUYjQg" name="Equipo_de_desarrollo" guid="_z-8bILzjEeWv5sdfLUYjQg" presentationName="Equipo de Desarrollo" responsibleFor="_aczacLzfEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_8_nxcLzjEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_AFzfQLzkEeWv5sdfLUYjQg" name="new_task" guid="_AFzfQLzkEeWv5sdfLUYjQg" presentationName="New Task"/>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lmQ0fbzaEeWv5sdfLUYjQg" name="CapabilityPatterns" guid="_lmQ0fbzaEeWv5sdfLUYjQg"/>
