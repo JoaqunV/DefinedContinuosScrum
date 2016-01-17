@@ -55,7 +55,18 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_z-8bILzjEeWv5sdfLUYjQg" name="Equipo_de_desarrollo" guid="_z-8bILzjEeWv5sdfLUYjQg" presentationName="Equipo de Desarrollo" responsibleFor="_aczacLzfEeWv5sdfLUYjQg">
             <methodElementProperty xmi:id="_8_nxcLzjEeWv5sdfLUYjQg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_AFzfQLzkEeWv5sdfLUYjQg" name="new_task" guid="_AFzfQLzkEeWv5sdfLUYjQg" presentationName="New Task"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_AFzfQLzkEeWv5sdfLUYjQg" name="completar_minuta_reunin_interna" guid="_AFzfQLzkEeWv5sdfLUYjQg" presentationName="Completar Minuta Reunión Interna" briefDescription="Se debe especificar claramente compromisos y acuerdos del equipo de trabajo." performedBy="_qJKBwLzjEeWv5sdfLUYjQg" mandatoryInput="_rLds8LzbEeWv5sdfLUYjQg" output="_rLds8LzbEeWv5sdfLUYjQg" additionallyPerformedBy="_TD0-kLzbEeWv5sdfLUYjQg" optionalInput="_o5UOsLzcEeWv5sdfLUYjQg _IzfsULzdEeWv5sdfLUYjQg _wI_2kLzeEeWv5sdfLUYjQg _I2mt4LzhEeWv5sdfLUYjQg _aczacLzfEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_Dtp8oL0ZEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_FJ54ML0ZEeWv5sdfLUYjQg" name="completar_minuta_reunin_externa" guid="_FJ54ML0ZEeWv5sdfLUYjQg" presentationName="Completar Minuta Reunión Externa" briefDescription="Se debe dejar claramente especificados los acuerdos y compromisos adquiridos, ademas de documentar el feedback del cliente. " performedBy="_TD0-kLzbEeWv5sdfLUYjQg _qJKBwLzjEeWv5sdfLUYjQg" mandatoryInput="_4gks4LzbEeWv5sdfLUYjQg" output="_4gks4LzbEeWv5sdfLUYjQg" optionalInput="_TDA3gLzhEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_PQpesL0ZEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_7UomwL0ZEeWv5sdfLUYjQg" name="elaborar_presentacin_de_avance" guid="_7UomwL0ZEeWv5sdfLUYjQg" presentationName="Elaborar Presentación de Avance" briefDescription="Procurar dar enfasis a las funcionalidades logradas durante el ciclo de trabajo. &#xD;&#xA;" performedBy="_TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_I2mt4LzhEeWv5sdfLUYjQg _aczacLzfEeWv5sdfLUYjQg _o5UOsLzcEeWv5sdfLUYjQg" output="_TDA3gLzhEeWv5sdfLUYjQg" optionalInput="_wI_2kLzeEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_Z4g_0L0aEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_d-0G0L0aEeWv5sdfLUYjQg" name="chequear_compromisos_y_acuerdos" guid="_d-0G0L0aEeWv5sdfLUYjQg" presentationName="Chequear Compromisos y Acuerdos" performedBy="_qJKBwLzjEeWv5sdfLUYjQg _TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_rLds8LzbEeWv5sdfLUYjQg _4gks4LzbEeWv5sdfLUYjQg" output="_rLds8LzbEeWv5sdfLUYjQg" optionalInput="_o5UOsLzcEeWv5sdfLUYjQg _I2mt4LzhEeWv5sdfLUYjQg _aczacLzfEeWv5sdfLUYjQg _wI_2kLzeEeWv5sdfLUYjQg _IzfsULzdEeWv5sdfLUYjQg _TDA3gLzhEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_plYhUL0aEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lmQ0fbzaEeWv5sdfLUYjQg" name="CapabilityPatterns" guid="_lmQ0fbzaEeWv5sdfLUYjQg"/>
