@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_lmQ0gbzaEeWv5sdfLUYjQg" guid="_lmQ0gbzaEeWv5sdfLUYjQg"/>
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_lmQ0gbzaEeWv5sdfLUYjQg" guid="_lmQ0gbzaEeWv5sdfLUYjQg">
+    <subManagers xmi:id="_hWsMEL3fEeWv5sdfLUYjQg" href="uma://_hT26gL3fEeWv5sdfLUYjQg#_hWsMEL3fEeWv5sdfLUYjQg"/>
+    <resourceDescriptors xmi:id="_hUTmcL3fEeWv5sdfLUYjQg" id="_hT26gL3fEeWv5sdfLUYjQg" uri="deliveryprocesses/Proceso%20de%20Desarrollo/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_lmQ0cLzaEeWv5sdfLUYjQg" name="proceso_continuo_scrum_definido_dcs" guid="_lmQ0cLzaEeWv5sdfLUYjQg" presentationName="Proceso Continuo Scrum Definido (DCS)" briefDescription="Proceso de Ingeniería de software, basado en Scrum. Pretende controlar de mejor forma las especificaciones, logrando un grado de formalidad mayor, lo que corrige problemas de informalidad y permite un desarrollo continuo de tareas, en vez de ser enmarcadas dentro de Sprints" authors="Abraham Cerda Iturra&#xD;&#xA;Joaquín Villagra Pacheco" changeDate="2016-01-17T03:25:21.080-0200" version="1.0">
     <methodElementProperty xmi:id="_lmQ0g7zaEeWv5sdfLUYjQg" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_s96XcLzaEeWv5sdfLUYjQg" name="me_edited" value="true"/>
@@ -76,11 +79,52 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_UskLcL0yEeWv5sdfLUYjQg" name="completar_documento_de_definicin_de_cambios" guid="_UskLcL0yEeWv5sdfLUYjQg" presentationName="Completar documento de definición de Cambios" briefDescription="En caso de existir modificación de requisitos, debe llenarse este documento, indicando claramente el requisito afectado, los aspectos conflictivos a evaluar. " performedBy="_TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_4gks4LzbEeWv5sdfLUYjQg _wI_2kLzeEeWv5sdfLUYjQg" output="_wI_2kLzeEeWv5sdfLUYjQg" additionallyPerformedBy="_qJKBwLzjEeWv5sdfLUYjQg" optionalInput="_TDA3gLzhEeWv5sdfLUYjQg">
             <methodElementProperty xmi:id="_m3QaQL0yEeWv5sdfLUYjQg" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_VPZfkL3eEeWv5sdfLUYjQg" name="integracin_de_avance" guid="_VPZfkL3eEeWv5sdfLUYjQg" presentationName="Integración de avance" performedBy="_z-8bILzjEeWv5sdfLUYjQg" mandatoryInput="_aczacLzfEeWv5sdfLUYjQg _KpT1ML3fEeWv5sdfLUYjQg" output="_aczacLzfEeWv5sdfLUYjQg _KpT1ML3fEeWv5sdfLUYjQg" additionallyPerformedBy="_qJKBwLzjEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_Dp5MAL3fEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_FgzDQL3fEeWv5sdfLUYjQg" name="efectuar_integracin_manual" guid="_FgzDQL3fEeWv5sdfLUYjQg" presentationName="Efectuar integración Manual" performedBy="_z-8bILzjEeWv5sdfLUYjQg _qJKBwLzjEeWv5sdfLUYjQg" mandatoryInput="_aczacLzfEeWv5sdfLUYjQg _KpT1ML3fEeWv5sdfLUYjQg" output="_aczacLzfEeWv5sdfLUYjQg _KpT1ML3fEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_Jo_AoL3fEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_KpT1ML3fEeWv5sdfLUYjQg" name="servidor_de_integracin" guid="_KpT1ML3fEeWv5sdfLUYjQg" presentationName="Servidor de Integración" briefDescription="Servidor en el cual se realiza la integración de las funcionalidades logradas por el equipo de trabajo en cada iteración. ">
+            <methodElementProperty xmi:id="_Q7Bq4L3fEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6y8kAL3fEeWv5sdfLUYjQg" name="elicitar_requisitos" guid="_6y8kAL3fEeWv5sdfLUYjQg" presentationName="Elicitar Requisitos" performedBy="_TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_o5UOsLzcEeWv5sdfLUYjQg" output="_o5UOsLzcEeWv5sdfLUYjQg" additionallyPerformedBy="_qJKBwLzjEeWv5sdfLUYjQg" optionalInput="_wI_2kLzeEeWv5sdfLUYjQg _4gks4LzbEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_BrDrUL3gEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_VcxiUL3gEeWv5sdfLUYjQg" name="generar_compromisos_y_acuerdos" guid="_VcxiUL3gEeWv5sdfLUYjQg" presentationName="Generar compromisos y acuerdos" performedBy="_TD0-kLzbEeWv5sdfLUYjQg _qJKBwLzjEeWv5sdfLUYjQg _z-8bILzjEeWv5sdfLUYjQg" mandatoryInput="_rLds8LzbEeWv5sdfLUYjQg _jxtnkL3gEeWv5sdfLUYjQg _4gks4LzbEeWv5sdfLUYjQg" output="_jxtnkL3gEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_f_WJML3gEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_jxtnkL3gEeWv5sdfLUYjQg" name="documento_de_compromisos_y_acuerdos" guid="_jxtnkL3gEeWv5sdfLUYjQg" presentationName="Documento de Compromisos y Acuerdos" briefDescription="Documento donde se deben registrar todos aquellos compromisos y acuerdos aquiridos, tanto como equipo de trabajo como con el cliente. ">
+            <methodElementProperty xmi:id="_z175IL3gEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CdTLIL3hEeWv5sdfLUYjQg" name="estudiar_minuta_de_reunin" guid="_CdTLIL3hEeWv5sdfLUYjQg" presentationName="Estudiar Minuta de Reunión" performedBy="_qJKBwLzjEeWv5sdfLUYjQg _TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_4gks4LzbEeWv5sdfLUYjQg _rLds8LzbEeWv5sdfLUYjQg" output="_o5UOsLzcEeWv5sdfLUYjQg _wI_2kLzeEeWv5sdfLUYjQg" additionallyPerformedBy="_z-8bILzjEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_KBIwAL3hEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PcY3wL3hEeWv5sdfLUYjQg" name="poblar_tablero_kanban" guid="_PcY3wL3hEeWv5sdfLUYjQg" presentationName="Poblar Tablero Kanban" performedBy="_qJKBwLzjEeWv5sdfLUYjQg _TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_aczacLzfEeWv5sdfLUYjQg _o5UOsLzcEeWv5sdfLUYjQg" output="_aczacLzfEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_UbYhUL3hEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_1tTYgL3iEeWv5sdfLUYjQg" name="analizar_documento_de_requisitos" guid="_1tTYgL3iEeWv5sdfLUYjQg" presentationName="Analizar documento de Requisitos" performedBy="_TD0-kLzbEeWv5sdfLUYjQg _qJKBwLzjEeWv5sdfLUYjQg" mandatoryInput="_o5UOsLzcEeWv5sdfLUYjQg" output="_wI_2kLzeEeWv5sdfLUYjQg" additionallyPerformedBy="_z-8bILzjEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_AHiiwL3jEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_e-KRoL3jEeWv5sdfLUYjQg" name="completar_documento_de_compromisos_y_acuerdos" guid="_e-KRoL3jEeWv5sdfLUYjQg" presentationName="Completar Documento de Compromisos y Acuerdos" performedBy="_TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_4gks4LzbEeWv5sdfLUYjQg _rLds8LzbEeWv5sdfLUYjQg" output="_jxtnkL3gEeWv5sdfLUYjQg" additionallyPerformedBy="_qJKBwLzjEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_AkgWIL3kEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HKWhYL3nEeWv5sdfLUYjQg" name="chequear_tablero_kanban" guid="_HKWhYL3nEeWv5sdfLUYjQg" presentationName="Chequear Tablero Kanban" performedBy="_qJKBwLzjEeWv5sdfLUYjQg _TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_aczacLzfEeWv5sdfLUYjQg" output="_aczacLzfEeWv5sdfLUYjQg" additionallyPerformedBy="_z-8bILzjEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_NaRnUL3nEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_P3-_4L3nEeWv5sdfLUYjQg" name="asignarreasignar_tareas" guid="_P3-_4L3nEeWv5sdfLUYjQg" presentationName="Asignar/Reasignar Tareas" performedBy="_TD0-kLzbEeWv5sdfLUYjQg _qJKBwLzjEeWv5sdfLUYjQg" additionallyPerformedBy="_z-8bILzjEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_ScY2UL3nEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_26lm0L3pEeWv5sdfLUYjQg" name="exponer_presentacin" guid="_26lm0L3pEeWv5sdfLUYjQg" presentationName="Exponer Presentación" performedBy="_TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_TDA3gLzhEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_56Qc8L3pEeWv5sdfLUYjQg" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lmQ0fbzaEeWv5sdfLUYjQg" name="CapabilityPatterns" guid="_lmQ0fbzaEeWv5sdfLUYjQg"/>
     </methodPackages>
-    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lmQ0frzaEeWv5sdfLUYjQg" name="DeliveryProcesses" guid="_lmQ0frzaEeWv5sdfLUYjQg"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lmQ0frzaEeWv5sdfLUYjQg" name="DeliveryProcesses" guid="_lmQ0frzaEeWv5sdfLUYjQg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_hT26gL3fEeWv5sdfLUYjQg" href="uma://_hT26gL3fEeWv5sdfLUYjQg#_hT26gL3fEeWv5sdfLUYjQg"/>
+    </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lmQ0f7zaEeWv5sdfLUYjQg" name="ProcessContributions" guid="_lmQ0f7zaEeWv5sdfLUYjQg"/>
   </org.eclipse.epf.uma:MethodPlugin>
 </xmi:XMI>
