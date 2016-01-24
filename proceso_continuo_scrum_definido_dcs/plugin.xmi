@@ -118,6 +118,24 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_26lm0L3pEeWv5sdfLUYjQg" name="exponer_presentacin" guid="_26lm0L3pEeWv5sdfLUYjQg" presentationName="Exponer Presentación" performedBy="_TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_TDA3gLzhEeWv5sdfLUYjQg">
             <methodElementProperty xmi:id="_56Qc8L3pEeWv5sdfLUYjQg" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QsPgoMLEEeWP7sk3tPECag" name="efectuar_pruebas_unitarias" guid="_QsPgoMLEEeWP7sk3tPECag" presentationName="Efectuar pruebas unitarias" performedBy="_qJKBwLzjEeWv5sdfLUYjQg" additionallyPerformedBy="_z-8bILzjEeWv5sdfLUYjQg _TD0-kLzbEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_U3Ty4MLEEeWP7sk3tPECag" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_WnVmEMLEEeWP7sk3tPECag" name="reporte_de_pruebas" guid="_WnVmEMLEEeWP7sk3tPECag" presentationName="Reporte de pruebas">
+            <methodElementProperty xmi:id="_X56oQMLEEeWP7sk3tPECag" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZvTckMLEEeWP7sk3tPECag" name="completar_reporte_de_pruebas" guid="_ZvTckMLEEeWP7sk3tPECag" presentationName="Completar Reporte de pruebas" mandatoryInput="_WnVmEMLEEeWP7sk3tPECag" output="_WnVmEMLEEeWP7sk3tPECag">
+            <methodElementProperty xmi:id="_dv150MLEEeWP7sk3tPECag" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_1TV8MMLLEeWP7sk3tPECag" name="entrega_formal_de_producto" guid="_1TV8MMLLEeWP7sk3tPECag" presentationName="Entrega Formal de producto" performedBy="_TD0-kLzbEeWv5sdfLUYjQg" mandatoryInput="_FByyEMLMEeWP7sk3tPECag _-znYkMLLEeWP7sk3tPECag" output="_FByyEMLMEeWP7sk3tPECag _-znYkMLLEeWP7sk3tPECag" additionallyPerformedBy="_qJKBwLzjEeWv5sdfLUYjQg">
+            <methodElementProperty xmi:id="_PCmvsMLMEeWP7sk3tPECag" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-znYkMLLEeWP7sk3tPECag" name="manual_de_usuario" guid="_-znYkMLLEeWP7sk3tPECag" presentationName="Manual de Usuario">
+            <methodElementProperty xmi:id="_B6BI0MLMEeWP7sk3tPECag" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_FByyEMLMEeWP7sk3tPECag" name="manual_de_instalacindespliegue" guid="_FByyEMLMEeWP7sk3tPECag" presentationName="Manual de Instalación/Despliegue">
+            <methodElementProperty xmi:id="_IHW00MLMEeWP7sk3tPECag" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lmQ0fbzaEeWv5sdfLUYjQg" name="CapabilityPatterns" guid="_lmQ0fbzaEeWv5sdfLUYjQg"/>
